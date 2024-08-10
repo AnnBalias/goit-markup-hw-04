@@ -322,9 +322,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-link-item:hover .team-link, 
-.team-link-item:focus .team-link,
-.team-link-item:active .team-link {
+.team-link:hover, 
+.team-link:focus {
     background-color: #404BBF;
 }
 
@@ -467,9 +466,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     fill: #F4F4FD;
 }
 
-.footer-link-item:hover .footer-link, 
-.footer-link-item:focus .footer-link, 
-.footer-link-item:active .footer-link{
+.footer-link:hover, 
+.footer-link:focus {
     background-color: #31D0AA;
 }
 
