@@ -34,6 +34,9 @@ margin: 0 auto;
 /* #region header */
 .header {
     border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16), 
+            0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -74,7 +77,7 @@ margin: 0 auto;
 }
 
 .nav-link {
-    padding: 27px 0;
+    padding: 26px 0;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -92,10 +95,10 @@ margin: 0 auto;
 }
 
 .nav-link.current::after {
-    content: " ";
+    content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     height: 4px;
     width: 100%;
     background-color: #404BBF;
@@ -127,13 +130,14 @@ margin: 0 auto;
     background-color: #2e2f42;
     color: #ffffff;
     padding: 188px 0;
-    background-image: linear-gradient(to right,
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    max-width: 1140px;
 }
 
 .hero-title {
@@ -205,8 +209,10 @@ margin: 0 auto;
 }
 
 .values-svg-box {
-    padding: 24px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background: #f4f4fd;
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -396,7 +402,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;    
+    align-items: baseline;    
 }
 
 .footer-text-cont {
