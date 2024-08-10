@@ -137,7 +137,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-width: 1140px;
+    max-width: 1440px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .hero-title {
@@ -284,7 +286,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 }
 
 .team-text-box {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-subtitle {
@@ -299,6 +301,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .team-link-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -426,6 +429,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .social-media-title {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
