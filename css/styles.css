@@ -321,7 +321,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-link-item:hover .team-link {
+.team-link-item:hover .team-link, .team-link-item:focus .team-link {
     background-color: #404BBF;
 }
 
